@@ -64,6 +64,22 @@
       .hamburger.cross div:nth-child(3) {
           transform: rotate(-45deg) translate(5px, -5px);
       }
+      @media (max-width: 767px) {
+    .table-scroll {
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling di iOS */
+        white-space: nowrap; /* Menghindari teks terputus */
+    }
+
+    .table-scroll table {
+        width: 100%; /* Sesuaikan lebar tabel */
+        border-collapse: collapse; /* Menyelaraskan border dengan benar */
+    }
+
+    /* Anda bisa menambahkan styling khusus untuk viewport kecil di sini */
+}
+
   </style>
   </head>
   <body>
@@ -271,7 +287,7 @@
 
 <h3 id="standar">C. STANDAR PENCAPAIAN DAN PENILAIAN TAHFIZH</h3>
 <h5>1. STANDAR PENCAPAIAN ZIYADAH DAN MUTQIN</h5>
-<table class="table table-bordered">
+<table class="table table-bordered table-scroll">
   <thead class="thead-dark">
     <tr>
       <th rowspan="2" class="text-center align-middle">Kelas</th>
@@ -338,7 +354,7 @@
   </tbody>
 </table>
 <h4>2. Standar Penilaian Raport Tahfizh dan Kenaikan Kelas</h4>
-<table class="table table-bordered">
+<table class="table table-bordered table-scroll">
   <thead class="thead-dark">
     <tr>
       <th>Dasar Penilaian</th>
