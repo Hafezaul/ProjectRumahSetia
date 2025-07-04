@@ -1,0 +1,71 @@
+.expandable-button {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(rgb(230, 216, 216), rgb(234, 240, 234), rgb(94, 94, 201));
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: width 0.4s, height 0.4s;
+}
+
+.expanded {
+    width: 100%;
+    height: 300px;
+}
+
+.button-content {
+    display: none;
+    padding: 20px;
+    text-align: left;
+}
+
+.expandable-button.expanded .button-content {
+    display: block;
+}
+
+.hamburger {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.hamburger div {
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    margin: 5px 0;
+    transition: transform 0.4s;
+}
+
+.hamburger.cross div:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.cross div:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.cross div:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+@media (max-width: 767px) {
+.table-scroll {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap; 
+}
+
+.table-scroll table {
+  width: 100%; 
+  border-collapse: collapse; 
+}
+
+}

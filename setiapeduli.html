@@ -11,6 +11,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&display=swap" rel="stylesheet">
+<!--sweat-->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <style>
       .para{
         font-family: "Noto Naskh Arabic", serif;
@@ -41,7 +43,7 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active text-dark" aria-current="page" href="Landing.html">Home</a>
+                <a class="nav-link active text-dark" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item dropdown ">
                 <a class="nav-link dropdown-toggle text-dark" href="profil.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -87,65 +89,145 @@
             <!--badge-->
             <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
               <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="Landing.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                 <li class="breadcrumb-item active" aria-current="page">SETIA Peduli</li>
               </ol>
             </nav>
 <!--navigasi 2-->
-      <div class="card text-center">
-        <div class="card-header">
-          SETIA Peduli
-        </div>
-        <div class="card-body">
-          <h5 class="card-title"></h5>
-          <p class="card-text para">
+<div class="container mt-5">
+  <div class="text-center mb-4">
+    <h1 class="display-4">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</h1>
+    <p class="lead">السلام عليكم ورحمة الله وبركاته</p>
+    <blockquote class="blockquote">
+      <p>Rasulullah 'alaihi sholatu wasallam bersabda:</p>
+      <footer class="blockquote-footer">“Setiap orang berada di bawah naungan amalan sedekahnya, hingga digelar pengadilan di antara manusia.” (HR. Ahmad)</footer>
+    </blockquote>
+  </div>
 
-            يٰٓاَيُّهَا الَّذِيْنَ اٰمَنُوْٓا اَنْفِقُوْا مِنْ طَيِّبٰتِ مَا كَسَبْتُمْ وَمِمَّآ اَخْرَجْنَا لَكُمْ مِّنَ الْاَرْضِۗ وَلَا تَيَمَّمُوا الْخَبِيْثَ مِنْهُ تُنْفِقُوْنَ وَلَسْتُمْ بِاٰخِذِيْهِ اِلَّآ اَنْ تُغْمِضُوْا فِيْهِۗ وَاعْلَمُوْٓا اَنَّ اللّٰهَ غَنِيٌّ حَمِيْدٌ ۝٢٦٧</p>
-          <p class="card-text">Wahai orang-orang yang beriman, infakkanlah sebagian dari hasil usahamu yang baik-baik dan sebagian dari apa yang Kami keluarkan dari bumi untukmu. Janganlah kamu memilih yang buruk untuk kamu infakkan, padahal kamu tidak mau mengambilnya, kecuali dengan memicingkan mata (enggan) terhadapnya. Ketahuilah bahwa Allah Mahakaya lagi Maha Terpuji.</p>
-            <a href="https://wa.me/+6285600909342?text=ʾas-salāmu ʿalaykum wa-raḥmatu -llāhi wa-barakātuh%20Saya%20ingin%20berdonasi%20apakah%20saya%20bisa%20mendapat%20info%20lebih%20lanjut%20%3F" class="btn btn-info"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="30" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
-              <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
-            </svg> Donasi</a>
-        </div>
-        <div class="card-footer text-body-secondary">
-        </div>
-      </div>
-    <!--progam-->
-    <h3 class="text-center bg-success p-3">Progam</h3>
-    <!--card donasi-->
-    <div class="row">
-      <div class="col-md-4 col-sm-12">
-        <div class="card">
-          <img src="setia-peduli/beras.png" class="card-img-top" alt="beras">
-          <div class="card-body">
-            <h5 class="card-title">Rice Tabarruk</h5>
-            <p class="card-text">Berbagi Beras kepada santri</p>
-            <button class="btn btn-primary w-100"><a href="https://wa.me/+6285600909342?text=ʾas-salāmu ʿalaykum wa-raḥmatu -llāhi wa-barakātuh%20Saya%20berdonasi%20Rice%20Tabaruk%20apakah%20saya%20bisa%20mendapat%20info%20lebih%20lanjut%20%3F" class="text-white text-decoration-none">Donasi</a></button>
+  <div class="alert alert-info">
+    <h4 class="alert-heading">Pondok Pesantren Tahfidzul Qur'an Rumah SETIA</h4>
+    <p>Pondok Pesantren Rumah SETIA (Senyum Yatim Indonesia) mengajak muslimin dan muslimat untuk menyokong kebutuhan para santri penghafal Al-Qur'an yang sebagiannya adalah anak yatim, dengan mengadakan program donasi/sedekah:</p>
+    <ul>
+      <li>Orangtua Asuh bagi para santri yatim dan dhuafa</li>
+      <li>Sedekah dan Donasi makanan pokok (beras) bagi para santri penghafal Al-Qur'an</li>
+      <li>Donasi pengadaan mobil operasional pondok bagi mobilisasi para santri dan kegiatan pesantren</li>
+      <li>Donasi renovasi infrastruktur pondok pesantren</li>
+    </ul>
+    <p class="mb-0">Mari bersama ambil bagian dalam beramal sholeh dan bersedekah jariyah yang in syaa Allah pahalanya akan terus mengalir dan tiada terputus kebaikannya.</p>
+  </div>
+
+  <div class="alert alert-warning">
+    <h4 class="alert-heading">Salurkan Donasi dan Sedekah Anda</h4>
+    <p>Salurkan donasi dan sedekah antum dengan mengirimkan ke rekening:</p>
+    <p><strong>BRI An PONPES RUMAH SETIA</strong><br>
+    No. Rekening: 144001001987537</p>
+  </div>
+
+  <div class="alert alert-secondary">
+    <h4 class="alert-heading">Kontak untuk Konfirmasi dan Informasi</h4>
+    <p>Untuk konfirmasi dan informasi lebih lanjut, silakan hubungi:</p>
+    <ul>
+      <li>Ustadz Akmal: <strong>+62 822-6601-1883</strong></li>
+      <li>Ustadz Fauzan: <strong>085600909342</strong></li>
+    </ul>
+  </div>
+
+  <div class="text-center mt-5">
+    <p>Demikian, kami haturkan jazakumullah ahsanal jaza'.</p>
+    <p>WA barakallahu fiikum</p>
+  </div>
+
+    
+      <!--progam baru start-->
+      <h3 class="text-center bg-success p-3">Program Baru</h3>
+      <div class="container my-5">
+        <div class="row">
+          <!-- Card 1: Infaq Beras -->
+          <div class="col-md-4 col-sm-12">
+            <div class="card">
+              <img src="setia-peduli/beras.jpeg" class="card-img-top" alt="Pengadaan Beras">
+              <div class="card-body">
+                <h5 class="card-title">Infaq Beras</h5>
+                <p class="card-text">Mari penuhi kebutuhan beras para penghafal Al-Qur'an setiap bulan.</p>
+                <button class="btn btn-primary w-100">
+                  <a href="https://wa.me/+6285600909342?text=ʾas-salāmu ʿalaykum wa-raḥmatu -llāhi wa-barakātuh%20Saya%20berdonasi%20Infaq%20Beras%20apakah%20saya%20bisa%20mendapat%20info%20lebih%20lanjut%20%3F" class="text-white text-decoration-none">
+                    Donasi
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2: Pengadaan Kendaraan -->
+          <div class="col-md-4 col-sm-12">
+            <div class="card">
+              <img src="setia-peduli/pickup.jpeg" class="card-img-top" alt="Pengadaan Kendaraan">
+              <div class="card-body">
+                <h5 class="card-title">Pengadaan Kendaraan</h5>
+                <p class="card-text">Mendukung kegiatan operasional pondok melalui kendaraan pick-up.</p>
+                <button class="btn btn-primary w-100">
+                  <a href="https://wa.me/+6285600909342?text=ʾas-salāmu ʿalaykum wa-raḥmatu -llāhi wa-barakātuh%20Saya%20berdonasi%20Pengadaan%20Kendaraan%20apakah%20saya%20bisa%20mendapat%20info%20lebih%20lanjut%20%3F" class="text-white text-decoration-none">
+                    Donasi
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3: Orangtua Asuh -->
+          <div class="col-md-4 col-sm-12">
+            <div class="card">
+              <img src="setia-peduli/khalid.jpeg" class="card-img-top" alt="progarm lain">
+              <div class="card-body">
+                <h5 class="card-title">Program Lainnya</h5>
+                <p class="card-text">Bantu santri yatim dan dhuafa melalui dukungan pendidikan dan kebutuhan harian.</p>
+                <button class="btn btn-primary w-100">
+                  <a href="https://wa.me/+6285600909342?text=ʾas-salāmu ʿalaykum wa-raḥmatu -llāhi wa-barakātuh%20Saya%20berdonasi%20Program%20Orangtua%20Asuh%20apakah%20saya%20bisa%20mendapat%20info%20lebih%20lanjut%20%3F" class="text-white text-decoration-none">
+                    Donasi
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4: Iftar Party -->
+          <div class="col-md-4 col-sm-12 mt-4">
+            <div class="card">
+              <img src="setia-peduli/bukber.jpg" class="card-img-top" alt="Iftar Party">
+              <div class="card-body">
+                <h5 class="card-title">Iftar Party</h5>
+                <p class="card-text">Berbuka Puasa Sunah Bersama Santri.</p>
+                <button class="btn btn-primary w-100">
+                  <a href="https://wa.me/+6285600909342?text=ʾas-salāmu ʿalaykum wa-raḥmatu -llāhi wa-barakātuh%20Saya%20berdonasi%20Iftar%20Party%20apakah%20saya%20bisa%20mendapat%20info%20lebih%20lanjut%20%3F" class="text-white text-decoration-none">
+                    Donasi
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Card 5: Jum'atul Mubarak -->
+          <div class="col-md-4 col-sm-12 mt-4">
+            <div class="card">
+              <img src="setia-peduli/jumat.jpg" class="card-img-top" alt="Jum'atul Mubarak">
+              <div class="card-body">
+                <h5 class="card-title">Jum'atul Mubarak</h5>
+                <p class="card-text">Makan Siang Jum'at Bersama Santri.</p>
+                <button class="btn btn-primary w-100">
+                  <a href="https://wa.me/+6285600909342?text=ʾas-salāmu ʿalaykum wa-raḥmatu -llāhi wa-barakātuh%20Saya%20berdonasi%20Juma'atul%20Mubarak%20apakah%20saya%20bisa%20mendapat%20info%20lebih%20lanjut%20%3F" class="text-white text-decoration-none">
+                    Donasi
+                  </a>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4 col-sm-12">
-        <div class="card">
-          <img src="setia-peduli/bukber.jpg" class="card-img-top" alt="iftar">
-          <div class="card-body">
-            <h5 class="card-title">Iftar Party</h5>
-            <p class="card-text">Berbuka Puasa Sunah Bersama Santri</p>
-            <button class="btn btn-primary w-100"><a href="https://wa.me/+6285600909342?text=ʾas-salāmu ʿalaykum wa-raḥmatu -llāhi wa-barakātuh%20Saya%20berdonasi%20Iftar%20Party%20apakah%20saya%20bisa%20mendapat%20info%20lebih%20lanjut%20%3F" class="text-white text-decoration-none">Donasi</a></button>
-          </div>
-        </div>
-      
 
-      </div>
-      <div class="col-md-4 col-sm-12">
-        <div class="card">
-          <img src="setia-peduli/jumat.jpg" class="card-img-top" alt="foto jumat ">
-          <div class="card-body">
-            <h5 class="card-title">Jum'atul Mubarak</h5>
-            <p class="card-text">Makan Siang Jum'at Dengan Santri</p>
-            <button class="btn btn-primary w-100"><a href="https://wa.me/+6285600909342?text=ʾas-salāmu ʿalaykum wa-raḥmatu -llāhi wa-barakātuh%20Saya%20berdonasi%20Juma'atul%20Mubarak%20apakah%20saya%20bisa%20mendapat%20info%20lebih%20lanjut%20%3F" class="text-white text-decoration-none">Donasi</a></button>
+   
           </div>
         </div>
       </div>
     </div>
+      <!--program baru end-->
+    <!--progam-->
+   <br>
 <br>
     <!--Donasi langsung-->
     <div class="container-fluid">
@@ -182,7 +264,7 @@
           <br>
         
         <div class="col-md-1 col-sm-3 mt-3">
-          <p><a href="Landing.html" class="text-decoration-none text-white">Beranda</a></p>
+          <p><a href="index.html" class="text-decoration-none text-white">Beranda</a></p>
           <p><a href="infopsb.html" class="text-decoration-none text-white">INFO PSB</a></p>
           <p><a href="kontak.html" class="text-decoration-none text-white">Kontak</a></p>
           <p><a href="setiapeduli.html"class="text-decoration-none text-white">Donasi</a></p>
@@ -216,10 +298,13 @@
           <h5>Unit Putri (Wustho)</h5>
           <p><a class="text-decoration-none text-white" href="https://g.co/kgs/ZARVhbW">Mendungan, Gg Khoir, Rt 03, Rw 09, Pabelan, Kartasura.</a></p>
         </div>
+        <!--javascript-->
+  <script src="./js/setiaPeduli.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 
  </body>
 </html>

@@ -1,0 +1,18 @@
+  /* Class baru untuk mengatur responsivitas tanpa mengganggu Bootstrap */
+  .custom-card {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .custom-card-inner {
+    width: 100%; /* Full width untuk setiap card */
+    margin-bottom: 1rem; /* Jarak antar card */
+  }
+  
+  @media (max-width: 576px) {
+    .custom-card-inner {
+      width: 100% !important; /* Memastikan full width di mobile */
+      margin-bottom: 1rem; /* Jarak antar card di mobile */
+    }
+  }
+  
